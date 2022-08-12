@@ -16,3 +16,13 @@ function booleanFunction(x){
 }
 
 console.log(booleanFunction(false))
+
+
+let y = "My name is John. ";
+let z = "I like to play basketball and valorant."
+
+function intro(x){
+    return y + z;
+}
+
+console.log(intro(x))
